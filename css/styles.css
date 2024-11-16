@@ -71,11 +71,21 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
+    transition-property: color;
+}
+
+.logo-nav:hover {
+    color: #2e2f42;
 }
 
 .accent {
     color: #2e2f42;
+    transition-property: color;
+}
+
+.accent:hover {
+    color: #404BBF;
 }
 
 .studio {
@@ -85,11 +95,38 @@ a {
     color: #2e2f42;
     padding: 24px 0 24px;
     display: block;
+    transition-property: font-size;
+    transition-duration: 500ms;
+}
+
+.studio-stuio::after {
+    display: block;
+    content: "";
+    border-top: 4px solid #404BBF;
+    border-radius: 2px;
+}
+
+.studio-original {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0 24px;
+    display: block;
+    color: #404BBF;
+    transition-property: font-size;
+    transition-duration: 500ms;
+}
+
+.studio-original:hover,
+.studio-original:focus {
+    color: #404bbf;
+    font-size: 15px;
 }
 
 .studio:hover,
 .studio:focus {
     color: #404bbf;
+    font-size: 15px;
     }
 
 .adress-list {
@@ -107,11 +144,14 @@ a {
     letter-spacing: 0.02em;
     padding: 24px;
     display: block;
+    transition-property: font-size;
+    transition-duration: 500ms;
 }
 
 .adress .link-adress:hover,
 .adress .link-adress:focus {
     color: #404bbf;
+    font-size: 15px;
  }
 
 .hero-image {
@@ -144,7 +184,7 @@ section {
     margin-bottom: 48px;
 }
 
-.hero-image .hero-button {
+.hero-button {
     color: #ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -157,11 +197,15 @@ section {
     border-radius: 4px;
     display: block;
     margin: auto;
+    transition-property: height, min-width;
+    transition-duration: 500ms;
 }
 
-.hero-image .hero-button:hover,
-.hero-image .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
+    height: 46px;
+    min-width: 159px;
 }
 
 .benefits {
@@ -187,6 +231,22 @@ section {
     width: calc((100% - 72px) / 4);
 }
 
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+    background-color: #E7E9FC;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+}
+
+.svg .benefits-img {
+    width: 64px;
+    height: 64px;
+}
+
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
@@ -194,6 +254,7 @@ section {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .benefits-p {
