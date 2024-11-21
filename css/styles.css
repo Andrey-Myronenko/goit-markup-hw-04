@@ -457,12 +457,12 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 156px;
-  margin-right: 120px;
 }
 
-.footer-down .container {
+.footer-logo-p {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .logo-nav-footer {
@@ -526,6 +526,7 @@ section {
 
 }
 
+.footer-link:hover,
 .footer-link:focus {
   background-color: #31d0aa;
 }
