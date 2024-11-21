@@ -376,7 +376,7 @@ section {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-img-p:hover {
+.portfolio-img:hover .portfolio-img-p {
   transform: translateY(0%);
 }
 
@@ -385,7 +385,7 @@ section {
   overflow: hidden;
 }
 
-.portfolio-img .portfolio-img-p {
+.portfolio-img-p {
   position: absolute;
   top: 0;
   font-size: 16px;
