@@ -331,9 +331,7 @@ section {
 
 .team-link:hover,
 .team-link:focus {
-  background-color: #404bbf;
-  background-color: #31D0AA;
-  
+  background-color: #404bbf;  
 }
 
 .team-mark .mark {
@@ -440,6 +438,15 @@ section {
   padding: 100px 0;
 }
 
+.container-div {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container {
+  margin-right: 120px;
+}
+
 .logo-nav-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -461,10 +468,6 @@ section {
   letter-spacing: 0.02em;
   color: #F4F4FD;
   max-width: 264px;
-}
-
-.footer-icons {
-  margin-right: 120px;
 }
 
 .footer-icons-p {
