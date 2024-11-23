@@ -178,7 +178,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7));
-  max-width: 1440px;
   background-position: center;
 }
 
@@ -195,6 +194,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+
 }
 
 .hero-button {
@@ -216,8 +216,6 @@ section {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  height: 46px;
-  min-width: 159px;
 }
 
 .benefits {
@@ -356,6 +354,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .portfolio-ul {
@@ -378,7 +377,7 @@ section {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-img:hover .portfolio-img-p {
+.portfolio-li-one:hover .portfolio-img-p {
   transform: translateY(0%);
 }
 
